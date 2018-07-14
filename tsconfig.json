@@ -3,8 +3,9 @@
         "module": "commonjs",
         "outDir": "www",
         "rootDir": "src",
-        "noImplicitAny": true,
-        "allowSyntheticDefaultImports": true
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "target": "es5"
     },
     "exclude": [
         "node_modules"

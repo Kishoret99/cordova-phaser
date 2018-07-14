@@ -1,5 +1,5 @@
 const path = require('path');
-const srcPath = './src/boilerplate/';
+const srcPath = './src/games/snake/';
 const phaser = path.join(__dirname, 'node_modules/phaser/dist/phaser.min.js');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const outDir = 'www'
